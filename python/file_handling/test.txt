@@ -1,0 +1,4 @@
+this is our first lecture
+on file handling in pythonthis is new text added by python filethis is new text added by python file
+
+# 

@@ -42,7 +42,11 @@ def menu():
     print('3. Check Balance')
     print('4. Exit')
     
-    option = int(input('Enter an option: '))
+    try:
+        option = int(input('Enter an option: '))
+    except ValueError:
+        print('Enter an integer\n')
+        return menu()
     
     if option == 1:
         amount = float(input('Enter the amount to be deposited: '))
