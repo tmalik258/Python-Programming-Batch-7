@@ -7,3 +7,7 @@ cd helloworld
 python manage.py startapp myapp
 python manage.py runserver
 python manage.py migrate
+
+pip freeze
+pip freeze > requirements.txt
+pip install -r requirements.txt
